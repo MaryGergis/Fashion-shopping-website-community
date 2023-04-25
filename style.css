@@ -1,0 +1,534 @@
+*{margin: 0; padding: 0;}
+
+@font-face {
+    font-family: Poppins;
+    src: url(font/fontawesome/Poppins-Black.ttf);
+}
+
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/fontawesome/Roboto-Regular.ttf);
+}
+
+
+/* nav-bar style*/
+
+.nav-bar {width: 100%; margin-bottom:1.5%;}
+
+.nav-bar .table{display: table; width: 100%;   }
+
+.nav-bar .table-cell{display: table-cell;  width: 40%;  }
+
+nav ul li{
+    display: inline-block;
+    padding: 10px ;
+    color: 	#5A5A5A; 
+    font-size: 20px;
+  }
+  
+nav ul li:hover{text-decoration: underline; color:Black;}
+
+
+.nav-bar img{ margin-top: 4%; height: 10%; width: 5%; margin-left: 8%;}  
+
+  
+.nav-bar .logo-text{width: 192px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-size: 40px;
+    color: #000000;
+    }
+
+.nav-right .button-SIGN-UP{background: #000000; width: 100px;
+    height: 45px;
+    color: #FEFEFE; border-radius: 7px;  
+    font-size: 19px;
+    display: inline-block;
+    }
+
+.nav-right .button-SIGN-UP:hover{background-color: transparent; color: #000000; }
+
+
+
+
+/* UNIQUE-CLOTHES style*/
+
+#UNIQUE-CLOTHES{background: #F4F6F5;  border-radius: 59px; max-width: 1200px;  }
+#UNIQUE-CLOTHES {width: 95%; margin: 0 auto;  }
+#UNIQUE-CLOTHES .table{display: table; width: 100%;  margin-bottom: 60px;  }
+#UNIQUE-CLOTHES .table-cell{display: table-cell; vertical-align:  middle; width:55%  } 
+
+#UNIQUE-CLOTHES .table-cell h2{
+    width: 444px;
+    height: 370px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 80px;
+    line-height: 90px;
+    color: #000000;
+    padding-top: 5%;
+	padding-left: 5%;
+
+     }
+	 
+#UNIQUE-CLOTHES img{width: 390px;
+    height: 500px;
+    padding-top: 20px;
+    background: url(incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview.png);}
+
+
+#UNIQUE-CLOTHES p{
+    font-size: 34px;
+    letter-spacing: -0.05em;
+    color: #191818;
+	padding-left: 5%;
+	padding-bottom: 2%;
+
+    }
+	
+	
+#UNIQUE-CLOTHES .table a {background: #000000;
+    border-radius: 7px; padding: 10px ; border: 1px solid transparent;
+    display: inline-block; font-size: 28px;
+    color: #FEFEFE; margin-left:5%; margin-bottom:10%;
+	
+    }
+
+#UNIQUE-CLOTHES .table a:hover{background-color: transparent; color: #000000; border-color: #000000;}
+
+
+
+#UNIQUE-CLOTHES i{
+    color: #e7e6e6;
+    display: inline-block; 
+    width: 30px;
+    height: 25.02px;
+    font-size: 45px; 
+    position: relative;
+    }
+	
+#UNIQUE-CLOTHES #firstar{
+    left: 590px;
+    top: 480px;
+    }
+	
+#UNIQUE-CLOTHES #secstar{
+    left: 1050px;
+    top: 340px;
+    }
+	
+#UNIQUE-CLOTHES #thirdstar{
+    left: 530px;
+    bottom: 40px;
+    }
+	
+#UNIQUE-CLOTHES #forthstar{
+    left: 990px;
+    bottom: 100px;
+    }
+
+
+/* Brands style */
+#Brand {
+	display: flex; margin-bottom:3%;
+	flex-wrap: wrap; justify-content: space-between;
+	height: 136px;  background: #EBD96B; padding: 0px 50px; 
+	
+}
+        
+.Brands img{ width: 170px; height: 75px;  margin-top: 20%; } 
+
+
+
+/* Features style */
+#features {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px 0;  max-width: 1200px; padding:20px; margin:0 auto;
+}
+
+.feature {
+	width: 30%;
+	margin-bottom: 40px;
+}
+
+.NEW-ARRIVALS-head{ margin-bottom:2%;}
+.NEW-ARRIVALS-head img{width: 155px; height: 40px; margin-left: 22%; margin-top: 2.5%; }
+
+.NEW-ARRIVALS-head h3 {
+    width: 390px;
+    height: 41px;
+    left: 80px;
+    top: 800px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 43px;
+    line-height: 50px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    position: absolute;
+    margin-top: 8.25%;
+    }
+
+.feature img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.feature h3 {
+	font-size: 34px;
+	margin: 0;
+}
+
+.feature p {
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+
+.feature a{width: 151px;
+    height: 33px;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    color: #7F7F7F; 
+    }
+    
+.feature a i {margin-left: 55%;}
+
+
+/* PAYDAY-SALE-NOW style */
+.PAYDAY-SALE-NOW {width: 100%;  margin-bottom: 5%;}
+
+.PAYDAY-SALE-NOW .table{display: table; width: 100%;  margin-bottom: 80px;  }
+        
+.PAYDAY-SALE-NOW .table-cell{display: table-cell; vertical-align:  middle;  width: 50%; } 
+
+.PAYDAY-SALE-NOW img{width: 700px;
+    height: 850px;
+    background: url(image.png);
+    }
+
+
+.PAYDAY-SALE-NOW {
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%,
+    #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%,
+    #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%,
+    #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%) ;}
+
+.PAYDAY-SALE-NOW .table-cell h2{width: 593.23px;
+    height: 275px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 85px;
+    color: #000000;
+    }
+
+.PAYDAY-SALE-NOW .table-cell .offer{width: 643.09px;
+    height: 90.68px;
+    font-style: normal;
+    font-size: 36.0402px;
+    line-height: 52px;
+    color: #231300;
+    }
+    
+
+.PAYDAY-SALE-NOW .table-cell h4{width: 428.99px;
+    height: 38.37px;
+    font-style: normal;
+    font-size: 36.0402px;
+    line-height: 52px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 3%;
+    }
+
+
+.PAYDAY-SALE-NOW .table-cell .terms{width: 491.77px;
+    height: 38.37px;
+    font-style: normal;
+    font-size: 36.0402px;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-top: 0.5%;
+    }
+
+.PAYDAY-SALE-NOW  .table a {background: #000000;
+    border-radius: 7px;  border: 1px solid transparent;
+     display: inline-block;  
+    width: 160.62px;
+    height: 60.33px;
+    color: #FEFEFE; margin-top: 5%;
+    padding-left: 5%; padding-top: 3%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27.9021px;
+    letter-spacing: 0.02em;
+    }
+
+.PAYDAY-SALE-NOW .table a:hover{background-color: transparent; color: #000000; border-color: #000000;}
+
+
+
+
+/* Young's favourite style */
+#Young-Favourite {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px 0;  max-width: 1200px; padding:20px; margin:0 auto;  width:80%;
+}
+
+.Youngs-Favourite {
+	width: 50%;
+	margin-bottom: 40px; text-align:center;
+}
+
+.Young’s-Favourite-head{ margin-bottom:2%;}
+.Young’s-Favourite-head img{width: 155px; height: 40px; margin-left: 33.5%; margin-top: 2.2%; }
+
+.Young’s-Favourite-head h3 {
+    left: 80px;
+    top: 2550px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    position: absolute;
+    margin-top: 8.25%;
+	margin-left:7%;
+    }
+
+.Youngs-Favourite img {
+	width: 450px;
+	height: 400px;
+	border-radius:35%;
+	margin-bottom: 20px;
+}
+
+.Youngs-Favourite h3 {
+	font-size: 32px;
+	margin: 0; 
+}
+
+.Youngs-Favourite p {
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+
+.Youngs-Favourite a{width: 151px;
+    height: 33px;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    color: #7F7F7F; 
+    margin-left: 10%;
+
+    }
+
+
+.Youngs-Favourite a i {margin-left: 40%; }
+
+
+
+
+
+/* Download app  */
+#DOWNLOADS-APP {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px 0;  max-width: 1200px; padding:20px; margin:0 auto;  width:80%;
+}
+
+.DOWNLOAD-APP {
+	width: 50%;
+	margin-bottom: 0px; text-align:center;
+}
+.DOWNLOAD-APP img{width: 600.89px;  height: 550px;   background: #FFFFFF;}
+
+
+.DOWNLOAD-APP h3{width: 507px;
+    height: 144px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    }
+
+.DOWNLOAD-APP p{width: 419px;
+    height: 61px;
+    margin-top: 5%;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+    margin-bottom: 5%;
+    color: #7C7C7C; padding-left:50px;
+    }
+
+.DOWNLOAD-APP button{  padding-right: 3%;  padding-left: 2%;  padding-bottom: 2%; margin-right: 2%;
+    background-color: #000000;  border-radius: 10px; color: #D9D9D9; margin-top: 5%;}
+
+.DOWNLOAD-APP .button-text{font-size: 18px; }
+
+.DOWNLOAD-APP .button-text h5{font-family:Poppins; font-style: normal; }
+
+.DOWNLOAD-APP .icon-apple {height: 5px;    font-size: 35px;  display: inline-block;}
+
+.DOWNLOAD-APP .icon-google-play {height: 5px;    font-size: 35px; display: inline-block; }
+
+.DOWNLOAD-APP button:hover{background-color: transparent; color: #000000; border-color: #000000;}
+
+
+
+
+/* Testimonials style */
+#testimonials {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px 0; padding:30px;
+}
+
+.testimonial {
+	width: 30%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+
+
+.testimonial-head{ margin-bottom:2%;}
+.testimonial-head img{width: 155px; height: 40px; margin-left: 21%;  }
+
+.testimonial-head h3 {
+    width: 390px;
+    height: 41px;
+    left: 100px;
+    top: 3805px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 43px;
+    line-height: 50px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    position: absolute;
+    margin-top: 8.25%;
+    }
+	
+	
+	
+.testimonial img {
+	border-radius: 50%;
+	margin-bottom: 20px;
+	width:250px;
+	height:250px;
+}
+
+.testimonial p {
+	font-style: italic;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.testimonial h4 {
+	font-size: 18px;
+	margin: 0;
+}
+
+/* footer style  */
+
+.footer{ width: 90%; margin: 0 auto; max-height:300px;}
+
+.footer .table{display: table;  }
+        
+.footer .table-cell{ display: table-cell;  width: 25%; } 
+
+footer {background: #000000;}
+
+footer .first-cell h3{padding-top:25px;
+    display: inline-block;
+    width: 192px;
+    height: 52.4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    }
+
+footer .first-cell p{width: 405px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #8E8E8E;
+    margin-top: 8%;
+    }
+
+
+footer .second-cell h4 {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #D9D9D9;
+    padding-left: 57%; 
+    }
+    
+footer .second-cell li {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #8E8E8E;
+    padding-left: 56%;  
+    margin: 20px 0px 0px 0px;
+    }
+    
+footer .third-cell h4 {
+    font-family: Roboto;
+    font-size: 24px;
+    margin: 11px 0 0px 84px;
+    color: #D9D9D9;
+    }
+    
+footer .third-cell li {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #7A7A7A;
+    margin: 18px 20px 0px 75px;
+    }
+    
+footer .fourth-cell h4 {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #EAEAEA;
+    margin: 0 0 0px 50px;
+    }
+    
+footer .fourth-cell li {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #8E8E8E;
+    margin: 15px 0 0px 50px;
+    }
+
+
+footer .background{ padding: 8px 10px ; 
+    background: #EBD96B;
+    border-radius: 15px;
+    color: black;
+    }
+   
